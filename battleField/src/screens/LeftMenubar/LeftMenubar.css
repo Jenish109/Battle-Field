@@ -1,0 +1,54 @@
+/* leftMenuBar */
+
+.main-container {
+    position: fixed;
+    top: 0;
+    left: 0; /* Position it at the left edge */
+    height: 100%;
+    width: 5%;
+    padding-top: 100px;
+    align-items: center;
+    border-right: 1px solid grey;
+}
+
+.img-div {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 10px;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+.single-img{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.single-img img {
+    height: 30px;
+}
+.single-img:hover {
+    border-left: 2px solid orange; /* Change border style on hover */
+}
+
+.below-logos {
+    /* background-color :red; */
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+}
+
+.help-img {
+    border-radius: 50%; /* Make it round */
+    background-color: #949fa2;
+    justify-content: center;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    color: #293e47;
+    font-size: 15px; /* Adjust font size as needed */
+}

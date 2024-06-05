@@ -1,0 +1,89 @@
+.main-rightbar{
+    /* background-color: yellow; */
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3.5vh;
+    padding-left: 1.5vh;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+    gap: 10px;
+    width: 8vh;
+}
+.main-rightbar:hover{
+    width: 30vh;
+    opacity: 0.5;
+    background-color: black;
+    
+}
+  
+
+.main-rightbar img{
+    height: 200px;
+}
+  
+  .firstDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    height: 100px;
+  }
+  
+  .type {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  .content {
+    width: 210%;
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .profile {
+    height: 40px;
+    width: 20%;
+  }
+  
+  .info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .content:hover{
+
+    background-color: white;
+    color: black;
+    /* opacity: 1;
+     */
+     /* z-index: 100; */
+  }
+  
+  .name, .status {
+    color: white;
+    width: 100;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .name:hover{
+    color: black;
+  }
+  
