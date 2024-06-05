@@ -11,7 +11,7 @@ const Menubar = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5008/home");
+        const response = await axios.get("https://battle-field.onrender.com/home");
         setLists(response.data);
         // console.log(response.data);
       } catch (error) {
